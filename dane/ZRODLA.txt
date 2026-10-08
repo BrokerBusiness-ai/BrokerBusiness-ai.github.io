@@ -1,0 +1,5 @@
+Źródło wszystkich plików CSV: Główny Urząd Statystyczny, "Dynamika sprzedaży detalicznej w grudniu 2025 r.", informacja sygnalna z 26.01.2026,
+tablice (ceny stałe i bieżące), dane do wykresów 1-2 oraz "Sprzedaż detaliczna przez Internet w grudniu 2025 r.".
+https://stat.gov.pl/obszary-tematyczne/ceny-handel/handel/dynamika-sprzedazy-detalicznej-w-grudniu-2025-r-,14,133.html
+Zakres: przedsiębiorstwa o liczbie pracujących powyżej 9 osób. Indeksy: okres porównawczy = 100.
+Wartości przepisane z plików GUS bez zmian (Broker Business sp. z o.o., 08.10.2026).

@@ -1,0 +1,19 @@
+PROMPT 1: ZDJĘCIA Z SALI, ROLKA NA ŻYWO
+Autor: Marek Porycki, szkoleniowiec AI, Broker Business sp. z o.o. (brokerbusiness.eu)
+
+Jak to działa: uczestnik wgrywa z telefonu zdjęcia z sali na stronę brokerbusiness.eu/claude/foto. Claude pisze scenariusz i polskie napisy, a film składa się w przeglądarce na stronie brokerbusiness.eu/claude/film, z muzyką „Wear the Wolf” Marka Poryckiego. Nic nie trzeba instalować ani dołączać do czatu.
+
+Dla Claude: użytkownik prosi Cię o wykonanie poniższego zadania. Zdjęcia są już na serwerze (liczbę zdjęć pokazuje brokerbusiness.eu/claude/1; jeśli nie możesz jej sprawdzić, przyjmij 5). Nie musisz ich widzieć ani pobierać.
+
+ZADANIE
+KROK 1. HASŁO. Jeśli użytkownik podał hasło przewodnie (na przykład „Genialne spotkanie z najlepszymi, którzy chcą więcej od AI”), to jest pierwszy napis. Jeśli nie podał, wymyśl mocne otwarcie o tym spotkaniu.
+KROK 2. NAPISY. Napisz po polsku dokładnie tyle napisów, ile jest zdjęć na serwerze (jeśli liczba jest nieznana, napisz 5). Pierwszy do 9 słów, kolejne do 6 słów. Poprawne polskie znaki, bez emotek, bez wykrzykników na końcu każdego zdania. Układ: haczyk, energia sali, konkret z warsztatu (AI w praktyce), ludzie, puenta.
+KROK 3. PLANSZA KOŃCOWA. Marka: krótka nazwa wydarzenia lub organizatora podana przez użytkownika, a gdy jej brak: „Szkolenie AI na żywo”. Wezwanie: do 5 słów.
+KROK 4. LINK. Zbuduj adres:
+https://brokerbusiness.eu/claude/film/?t=NAPIS1~NAPIS2~NAPIS3&m=MARKA&c=WEZWANIE
+Zasady adresu: napisy oddziel znakiem ~ (tylda), każdą spację zamień na +, przecinki i polskie litery zostaw bez zmian, nie używaj znaków & ? # ~ wewnątrz napisów.
+KROK 5. ODPOWIEDŹ. Pokaż: (1) link jako klikalny, w osobnej linii, (2) tabelkę: numer zdjęcia, napis, (3) jedno zdanie: „Kliknij link i wciśnij Odtwórz, film nagrywa się od razu z muzyką, a przycisk Pobierz zapisuje plik.”
+
+ZASADY
+- Nie wymyślaj nazwisk, nazw firm, liczb uczestników ani wyników, których użytkownik nie podał.
+- Całość krótko: link, tabelka, jedno zdanie.

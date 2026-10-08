@@ -1,0 +1,28 @@
+PROMPT 4: KULISY. JAK ZBUDOWAŁEM TEN POKAZ
+Autor: Marek Porycki, szkoleniowiec AI, Broker Business sp. z o.o. (brokerbusiness.eu)
+
+Dla Claude: użytkownik prosi, żebyś przedstawił sali, jak powstał pokaz, który właśnie zobaczyli (prompty 1, 2 i 3). Poniżej są prawdziwe kroki, w kolejności. Nie dodawaj kroków ani liczb, których tu nie ma.
+
+ZADANIE
+KROK 1. Pokaż oś czasu: 8 kroków, przy każdym jedno zdanie „co zrobił Marek” i jedno zdanie „co zrobił Claude”. Jeśli możesz tworzyć artefakty, zrób z tego czytelną, pionową oś czasu w HTML.
+KROK 2. Wypunktuj 3 lekcje dla uczestników (z sekcji LEKCJE), każdą jednym zdaniem.
+KROK 3. Na koniec podaj uczestnikom PROMPT STARTOWY (niżej) w osobnym bloku, do skopiowania, i adres, pod którym zabiorą go telefonem: brokerbusiness-ai.github.io/prompty/4 (kod QR do zeskanowania: brokerbusiness-ai.github.io/prompty/qr).
+Całość krótko, do pokazania na ekranie w 2 minuty, po polsku.
+
+KROKI (jak to powstało)
+1. Pomysł głosem. Marek podyktował w telefonie: „chcę, żeby cudzy Claude na szkoleniu otworzył moją stronę i wykonał moje prompty”. Claude ocenił, co zadziała, a co nie (Claude czyta strony, ale nie pobierze z serwera zdjęć do swojego środowiska).
+2. Plan. Adres łatwy do podyktowania, trzy scenariusze, kolejność od najpewniejszego (meble), przez wymagający wyszukiwania (GUS), do najbardziej efektownego (film ze zdjęć).
+3. Dane bez zmyślania. Claude przez komputer Marka pobrał oryginalne tablice GUS (informacja sygnalna z 26.01.2026) i przepisał je bez zmian do tabel na stronie. Prompt każe Claude dociągnąć najnowsze dane z 2026 r.
+4. Case fabryki. Fikcyjna fabryka mebli z danymi dobranymi tak, żeby ujawniła dwa wąskie gardła (okleiniarka i pakowanie). Claude przeliczył zdolność każdego etapu, zanim prompt trafił na stronę.
+5. Film ze zdjęć z sali. Zamiast dołączać pliki do czatu powstały dwie strony: wgrywanie zdjęć z telefonu (z PIN-em, telefon sam zmniejsza zdjęcia) i generator filmu w przeglądarce: polskie napisy słowo po słowie, muzyka „Wear the Wolf” Marka, zmiana zdjęcia co 6 uderzeń (około 123 BPM), zapis do pliku wideo.
+6. Testy. Najpierw na serwerze testowym z automatyczną przeglądarką, potem na prawdziwym serwerze: wgrywanie, zły PIN, licznik zdjęć, czyszczenie.
+7. Awaria i plan B. Okazało się, że zapora serwera przeważnie nie wpuszcza narzędzia, którym Claude czyta strony. Diagnoza zajęła kilka minut, obejście też: prompty przeniesione na GitHub (publiczne repozytorium i strona) z krótkimi linkami bit.ly, a zdjęcia i film zostały na serwerze Marka, bo otwiera je zwykła przeglądarka.
+8. Próba generalna na „obcym” Claude. Trzy niezależne instancje Claude, bez żadnej wiedzy o projekcie, dostały tylko zdanie z mikrofonu i wykonały prompty 1, 2 i 3. Wyniki i uwagi z tej próby poprawiły instrukcje.
+
+LEKCJE
+- Człowiek decyduje, AI wykonuje i sprawdza: kierunek, priorytety i zgody zostały po stronie Marka, liczenie, kod i testy po stronie Claude.
+- Testuj w cudzym środowisku, nie we własnym: to, co działa u Ciebie, może nie działać u odbiorcy.
+- Zawsze miej plan B: serwer zawiódł, GitHub uratował pokaz w kilkanaście minut.
+
+PROMPT STARTOWY (dla uczestników, do skopiowania)
+„Jesteś moim wspólnikiem projektowym. Mój pomysł: [opisz jednym zdaniem]. Najpierw powiedz uczciwie, co z tego zadziała, a co nie i dlaczego. Potem rozpisz plan w 5 krokach, od najpewniejszego do najbardziej efektownego. Przy każdym kroku napisz, co robię ja, a co możesz zrobić Ty, i jak sprawdzimy, że działa. Nie zmyślaj danych: jeśli czegoś nie wiesz, napisz to wprost.”
